@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    height: 90%;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+    .header{
+        background-color: rgb(255, 153, 0);
+        padding: 10px 30px;
+    }
+
+        .title{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bolder;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 50px;
+        }
+
+        .subtitle{
+            text-decoration: underline;
+        }
+
+    .menu{
+        background-color: #000;
+        width: 95%;
+        height: fit-content;
+        margin: auto;
+        
+    }
+
+        .flexContainer{
+            display: flex;
+            justify-content: space-evenly;
+            margin: auto;
+        }
+
+            .itemMenu{
+                color: rgba(201, 201, 201, 0.856);
+                text-decoration: none;
+                list-style: none;
+                margin: auto; 
+                padding: 10px;
+                border-right: rgba(201, 201, 201, 0.856);
+            }
+
+    .main{
+        background-color: rgb(228, 248, 255);
+        margin: 30px auto;
+        padding: 30px;
+        width: 80%;
+    }
+
+        .sectionTitle{
+            text-align: center;
+            text-decoration: underline;
+            margin-bottom: 15px;
+        }
+
+            .articleTitle{
+                margin-top: 40px;
+                margin-left: 200px ;
+                text-align: left;
+            }
+
+            .carousel{
+                margin: auto;
+                padding: 30px;
+            }
+
+                div, .carouselImage{
+                    width: 50%;
+                    padding: 10px;
+                }
+
+                .carousel-caption{
+                    margin: auto;
+                }
+
+                .carousel-caption:hover{
+                    background-color: rgb(255, 153, 0);
+                    padding: 5px;
+                }
+
+                div, .imageTitle{
+                    color: #000;
+                    text-align: center;
+                    margin: auto;
+                }            
+                
+    .footer{
+        background-color:#000;
+        width: 100%;
+    }
